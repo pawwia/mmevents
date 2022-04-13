@@ -1,0 +1,48 @@
+a{text-decoration:none;color:black}
+a:hover{text-decoration:none;color:black}
+nav{ width:100%; min-height:50px; position: absolute  ;z-index:10;  transition: all 0.5s;margin-top:30px; }
+.block {width:100%; text-align: center; padding-left: 15px; padding-right: 15px;padding-top:10px; min-height: 500px; font-size: 20px; line-height: 35px;}
+.block1 {width:60%; text-align: center; margin-left: 20%; margin-right: 20%;padding-top:10px; min-height: 500px; font-size: 20px; line-height: 35px; background-color: white; color: black; padding-left: 20px; padding-right: 20px;}
+.block-title {width: 60%; min-height: 100px; background-color: black; color: white;  margin-left: 20%; margin-right: 20%;  text-align: center; padding-top:10px;}
+.block-background{background-image: url("img/morze.png"); padding-top: 10%; padding-bottom: 10%; background-size: 100% 100%; background-attachment: fixed;background-repeat: no-repeat}
+.block-reservation {}
+.carousel-caption {position: absolute; top: 300px; font-size: 30px;}
+.banners--title-group {text-align: center;position: relative; top: -500px; color: white; font-size: 80px}
+.sticky-menu{position:fixed; top:0;left:0;background-color:#fff; opacity:0.9;   margin-top:0;  display:none; padding-top: 15px;}
+.strip{background-color:#fff; width:22px; height:2px; border-radius:1px;margin-top:8px;float:left;}
+.strip:first-child{margin-top:0}
+.mobile_menu_button{width:44px; height:36px;border:1px solid #535653;background-color:transparent;padding-left:11px; padding-right:11px;padding-top:0;display:none;float:right;margin-top:10px;margin-right:20px;}
+.mobile_menu_button:hover{border-color:#fff;background-color:#000000;opacity:0.99;}
+.buttons>ul{min-height:50px;margin-left:0 ; margin-right:0;}
+.buttons>ul>a:hover{color:#59ff69;border: solid white 1px}
+.mobile-logo{float:left;}
+.centrum{margin: 0 auto;width:1000px}
+
+@media screen and (min-width: 738px) {
+.buttons>ul>a{float:left;min-height:30px;list-style:none;margin-top:20px; text-align:center; vertical-align:middle;min-width:60px;font-size:15px; padding-left:15px; padding-right:15px;display:block;}
+.buttons>ul>a:hover{float:left;min-height:30px;list-style:none;margin-top:20px; text-align:center; vertical-align:middle;min-width:60px;font-size:15px; padding-left:15px; padding-right:13px;display:block;}
+.buttons{float:left;margin:auto;}
+.mobile-logo{display:none}
+#logo{margin-top:20px;}
+
+}
+	
+	
+
+	@media screen and  (max-width: 737px) {
+.mobile-logo{display:block;}
+.centrum{width:100%}
+#logo{display:none}
+		.buttons{display:none;}
+.mobile_menu_button{display:block;float:left;text-align:right;}
+nav{opacity:1;background-color:#9e9b9a; margin-top: 0%;}
+.buttons>ul>a{list-style:none; width:100%;height: 1000px;font-size:25px; padding-top:15px;border:1px solid black; background-color: grey;}
+.buttons>ul{width:100%;min-height:9px;margin-top: 15%;}
+.buttons>ul>a:hover{}
+.block1 {width:80%; text-align: center; margin-left: 10%; margin-right: 10%;padding-top:5px; min-height: 500px; font-size: 15px; line-height: 30px; background-color: white; color: black; padding-left: 10%; padding-right: 10%;}
+	}
+	
+	
+	
+	
+	
